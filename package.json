@@ -2,6 +2,14 @@
   "name": "nextjs-cross-browser",
   "version": "0.1.0",
   "private": true,
+  "keywords": [
+    "nextjs-cross-browser",
+    "browserslist",
+    "chrome55",
+    "firefox 67",
+    "opera 51",
+    "safari 12"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
