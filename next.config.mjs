@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  transpilePackages: ["@tanstack/react-query", "@tanstack/query-core"],
+  transpilePackages: [
+    "@tanstack/react-query",
+    "@tanstack/query-core",
+    "recoil",
+  ],
   webpack(config) {
     const originalEntry = config.entry;
     config.entry = async () => {
